@@ -13,6 +13,11 @@
         android:theme="@style/Theme.RegistrationApp"
         tools:targetApi="31">
         <activity
+            android:name=".PreviewActivity"
+            android:exported="true"
+            android:label="Registration Message Preview"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

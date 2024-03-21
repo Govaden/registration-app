@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Registration App</string>
+    <string name="hint_email">E-mail</string>
+    <string name="text_view_signup">Register</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="button_text_signup">SIGNUP</string>
+    <string name="image_view_app_logo">App Logo</string>
+
 </resources>
