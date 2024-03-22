@@ -16,9 +16,9 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:contentDescription="@string/image_view_app_logo"
             android:scaleType="centerCrop"
-            android:src="@drawable/rocket_1976107_1280"
-            android:contentDescription="@string/image_view_app_logo" />
+            android:src="@drawable/rocket_1976107_1280" />
 
         <TextView
             android:layout_width="match_parent"
