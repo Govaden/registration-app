@@ -29,12 +29,29 @@
             android:textColor="#5F5F67"
             android:textSize="30sp" />
 
-        <Spinner
-            android:id="@+id/spinner_title"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/text_view_title"
+                android:textColor="#49454F"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinner_title"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+        </LinearLayout>
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -47,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                tools:text="First Name" />
+                tools:text="John" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                tools:text="Last Name" />
+                tools:text="Doe" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -105,13 +122,14 @@
                 android:id="@+id/edit_text_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textCapWords"
+                android:inputType="textPassword"
                 tools:text="**********" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/button_signup"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
