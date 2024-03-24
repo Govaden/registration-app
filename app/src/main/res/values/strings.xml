@@ -9,5 +9,6 @@
     <string name="button_text_signup">SIGNUP</string>
     <string name="image_view_app_logo">App Logo</string>
     <string name="text_view_title">Your Title:</string>
+    <string name="text_view_checkout">Your account details:</string>
 
 </resources>
