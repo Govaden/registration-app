@@ -37,8 +37,9 @@ class MainActivity : AppCompatActivity() {
             binding.editTextFirstName.text.toString(),
             binding.editTextLastName.text.toString(),
             binding.editTextEmail.text.toString(),
-            binding.editTextPassword.text.toString(),
-            binding.editTextPhoneNumber.text.toString()
+            binding.editTextPhoneNumber.text.toString(),
+            binding.editTextPassword.text.toString()
+
         )
 
         val registrationActivityIntent = Intent(this, RegistrationActivity::class.java)

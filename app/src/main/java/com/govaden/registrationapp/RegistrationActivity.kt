@@ -9,7 +9,7 @@ import com.govaden.registrationapp.databinding.ActivityPreviewBinding
 
 class RegistrationActivity : AppCompatActivity() {
 
-    lateinit var user: User
+    private lateinit var user: User
 
     private lateinit var binding: ActivityPreviewBinding
     override fun onCreate(savedInstanceState: Bundle?) {
